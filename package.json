@@ -1,0 +1,13 @@
+{
+  "name": "claude-mcp-server-gads",
+  "version": "1.0.0",
+  "main": "mcp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node mcp-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.8"
+  }
+}
