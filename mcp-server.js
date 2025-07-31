@@ -49,3 +49,8 @@ const server = createServer(app);
 server.listen(8080, () => {
   console.log("🚀 Claude MCP Server is running on port 8080");
 });
+app.get("/sse", (req, res) => {
+  console.log("📡 Claude connected to /sse endpoint");
+  res.status(200).end(); // just keep it simple
+});
+
